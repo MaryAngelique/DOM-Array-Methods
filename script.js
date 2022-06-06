@@ -7,6 +7,10 @@ const calculateWealthBtn = document.getElementById("calculate-wealth");
 
 let data = [];
 
+getRandomUser();
+getRandomUser();
+getRandomUser();
+
 // Fetch random user and add money
 async function getRandomUser() {
     const res = await fetch("https://randomuser.me/api");
@@ -46,6 +50,17 @@ function showMillionaires() {
     updateDOM();
 }
 
+// Calculate the total wealth
+function calculateWealth() {
+    const wealth = data.reduce((acc, user) => (acc += user.money), 0);
+  
+    const wealthEl = document.createElement("div");
+    wealthEl.innerHTML = `<h3>Total Wealth: <strong>${formatMoney(
+      wealth
+    )}</strong></h3>`;
+    main.appendChild(wealthEl);
+  }
+
 // Add new obj to data arr
 function addData(object) {
     data.push(object);
@@ -74,4 +89,5 @@ function formatMoney(number) {
 addUserBtn.addEventListener("click", getRandomUser);
 doubleBtn.addEventListener("click", doubleMoney);
 sortBtn.addEventListener("click", sortByRichest);
-showMillionairesBtn.addEventListener('click', showMillionaires);
+showMillionairesBtn.addEventListener("click", showMillionaires);
+calculateWealthBtn.addEventListener("click", calculateWealth);
