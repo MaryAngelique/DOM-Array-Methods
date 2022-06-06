@@ -24,10 +24,12 @@ Users should be able to:
 #### - Can sort by richest (descending order)
 
 #### - Can add up all the users' weatlh
+
+
 ### Links
 
-- Solution URL: [ GitHub Solution](GitHub )
-- Live Site URL: [ Website](Deployed website)
+- Solution URL: [DOM Array Method GitHub Solution](https://github.com/MaryAngelique/DOM-Array-Methods)
+- Live Site URL: DOM Array Method Website
 
 ## My process
 
