@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [DOM Array Method GitHub Solution](https://github.com/MaryAngelique/DOM-Array-Methods)
-- Live Site URL: DOM Array Method Website
+- Live Site URL: [DOM Array Method Website](https://dom-array-methods-beta.vercel.app/)
 
 ## My process
 
