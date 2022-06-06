@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Features](#features)
   - [Demo](#project-demo)
   - [Links](#links)
 - [My process](#my-process)
@@ -16,19 +15,15 @@
 ### The challenge
 
 Users should be able to:
+#### - Add users
 
-#### - 
+#### - Can double user's money
 
-#### - 
+#### - Can filter millionaires
 
-#### - 
+#### - Can sort by richest (descending order)
 
-### Features
-
-### Project Demo
-
-[![PROJECT DEMO](https://dotcom.nlcdn.com/wp-content/uploads/2020/03/Product_Demo_Featured-1140x768@2x-80-min.jpg)](loom)
-
+#### - Can add up all the users' weatlh
 ### Links
 
 - Solution URL: [ GitHub Solution](GitHub )
